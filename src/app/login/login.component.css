@@ -1,0 +1,126 @@
+/* Estilos importados desde Google Fonts para la fuente Raleway */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/* Estilos globales */
+* {
+  box-sizing: border-box; /* La caja incluye el borde y el relleno */
+  margin: 0; /* Margen predeterminado eliminado */
+  padding: 0; /* Relleno predeterminado eliminado */
+  font-family: Raleway, sans-serif; /* Fuente predeterminada para el texto */
+}
+
+/* Estilos del contenedor principal de inicio de sesión */
+.login {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  width: 100%; 
+  background: linear-gradient(to right, rgba(122, 62, 72, 0.66)); /* Fondo con gradiente lineal */
+  position: relative; 
+}
+
+/* Estilos del fondo del contenedor principal */
+.background {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(122, 62, 72, 0.66); /* Color de fondo con transparencia */
+}
+
+/* Estilos del formulario personalizado */
+.custom-form {
+  width: 400px; 
+  background-color: #fff; 
+  position: relative; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  padding: 50px 35px; 
+  animation: fadeIn 0.5s ease-in-out; 
+}
+
+/* Animación de fundido para mostrar el formulario */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; 
+    transform: translateY(-50px); 
+  }
+  100% {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+/* Estilos del encabezado del formulario */
+.custom-form h1 {
+  text-align: center; 
+  margin-bottom: 30px; 
+  color: #292929; /* Color del texto */
+  padding: 0; /* Relleno eliminado */
+  border: none; /* Borde eliminado */
+  background: none; /* Fondo eliminado */
+}
+
+/* Estilos para la imagen dentro del encabezado */
+.custom-form h1 img {
+  max-width: 200px; 
+  height: auto; 
+}
+
+/* Estilos para las etiquetas de los campos del formulario */
+.form-label {
+  display: block; 
+  margin-bottom: 10px; 
+  font-size: 16px; 
+  font-weight: 500; 
+  color: #292929; 
+}
+
+/* Estilos para los campos del formulario */
+.form-control {
+  display: block; 
+  height: 40px; 
+  width: 100%; 
+  background-color: #f5f5f5; 
+  border-radius: 3px; 
+  padding: 0 10px; 
+  margin-bottom: 15px; 
+  font-size: 14px; 
+  font-weight: 400; 
+  color: #292929; 
+  border: 1px solid #ccc; 
+}
+
+/* Estilos para el botón de enviar */
+button {
+  margin-top: 30px; 
+  width: 100%; 
+  background-color: #B95835; 
+  color: #fff; 
+  padding: 10px 0; 
+  font-size: 16px; 
+  font-weight: 600; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  border: none; 
+}
+
+/* Estilos para el botón de enviar al pasar el ratón */
+button:hover {
+  background-color: #528fe4; /* Color de fondo del botón al pasar el ratón */
+}
+
+/* Estilos para indicar error en el formulario */
+.error {
+  border-color: #ff5252 !important; /* Borde en rojo para indicar error */
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+  color: #ff5252; 
+  font-size: 12px; 
+  margin-top: 5px; 
+}
