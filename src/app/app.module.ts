@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { RecuperarrpassComponent } from './recuperarrpass/recuperarrpass.component';
 import { ListaLibrosComponent } from './lista-libros/lista-libros.component';
 import { RegistroLibroComponent } from './registro-libro/registro-libro.component';
+import { EditarLibroComponent } from './editar-libro/editar-libro.component';
+import { EditarPerfileComponent } from './editar-perfile/editar-perfile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { RegistroLibroComponent } from './registro-libro/registro-libro.componen
     LoginComponent,
     RecuperarrpassComponent,
     ListaLibrosComponent,
-    RegistroLibroComponent
+    RegistroLibroComponent,
+    EditarLibroComponent,
+    EditarPerfileComponent
   ],
   imports: [
     BrowserModule,
