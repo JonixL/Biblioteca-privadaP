@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  selector: 'app-register-admin',
+  templateUrl: './register-admin.component.html',
+  styleUrls: ['./register-admin.component.css']
 })
-export class LoginComponent {
+export class RegisterAdminComponent {
 
   showPassword: boolean = false;
 
@@ -14,5 +14,4 @@ export class LoginComponent {
   VerPassW() {
     this.showPassword = !this.showPassword;
   }
-
 }

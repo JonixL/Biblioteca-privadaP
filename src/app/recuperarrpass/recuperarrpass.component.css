@@ -1,5 +1,7 @@
+/* Estilos importados desde Google Fonts para la fuente Raleway */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+/* Estilos globales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +9,7 @@
   font-family: Raleway, sans-serif;
 }
 
+/* Estilos del contenedor principal de inicio de sesión */
 .login {
   display: flex;
   flex-direction: column;
@@ -14,19 +17,22 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(122, 62, 72, 0.66));
   position: relative;
 }
 
-.background {
+/* Nuevos estilos para la imagen de fondo */
+.background-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(122, 62, 72, 0.66);
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
 }
 
+/* Estilos del formulario personalizado */
 .custom-form {
   width: 400px;
   background-color: #fff;
@@ -37,6 +43,7 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
+/* Animación de fundido para mostrar el formulario */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -49,6 +56,7 @@
   }
 }
 
+/* Estilos del encabezado del formulario */
 .custom-form h1 {
   text-align: center;
   margin-bottom: 30px;
@@ -58,11 +66,13 @@
   background: none;
 }
 
+/* Estilos para la imagen dentro del encabezado */
 .custom-form h1 img {
   max-width: 200px;
   height: auto;
 }
 
+/* Estilos para las etiquetas de los campos del formulario */
 .form-label {
   text-align: left;
   margin-bottom: 5px;
@@ -71,6 +81,7 @@
   color: #292929;
 }
 
+/* Estilos para los campos del formulario */
 .form-control {
   display: block;
   height: 40px;
@@ -85,6 +96,7 @@
   border: 1px solid #ccc;
 }
 
+/* Estilos para el botón de enviar */
 button {
   margin-top: 40px;
   /* Se agrega más espacio entre el botón y el enlace */
@@ -100,9 +112,10 @@ button {
 }
 
 button:hover {
-  background-color: #528fe4;
+  background-color: #E18942;
 }
 
+/* Estilos para el enlace de inicio de sesión */
 .login-link {
   margin-top: 15px;
   /* Se agrega más espacio entre el botón y el enlace */
@@ -115,6 +128,7 @@ button:hover {
   text-decoration: underline;
 }
 
+/* Estilos para el mensaje de error */
 .error-message {
   color: #ff5252;
   font-size: 12px;
