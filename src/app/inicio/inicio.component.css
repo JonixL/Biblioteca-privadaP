@@ -41,9 +41,45 @@
   }
   
   
-  /* ... (otros estilos) ... */
+  
   
   .btn-rounded {
     /* ... (otros estilos) ... */
     border-radius: 15px; /* Agregar bordes redondeados */
   }
+
+ /* Estilos para centrar la imagen */
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.background-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto; /* Añade esta línea para asegurarte de que el ancho se ajuste */
+  height: auto; /* Añade esta línea para asegurarte de que la altura se ajuste */
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #262626;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.footer-author {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+
