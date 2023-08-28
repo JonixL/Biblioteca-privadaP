@@ -11,6 +11,8 @@ import { EditarLibroComponent } from './admin/editar-libro/editar-libro.componen
 import { EditarPerfileComponent } from './editar-perfile/editar-perfile.component';
 import { RegisterAdminComponent } from './register-usuario/register-admin.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { MenuPrincipalUserComponent } from './user/menu-principal-user/menu-principal-user.component';
+import { ListaLibrosParaDonarComponent } from './user/lista-libros-para-donar/lista-libros-para-donar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { InicioComponent } from './inicio/inicio.component';
     EditarLibroComponent,
     EditarPerfileComponent,
     RegisterAdminComponent,
-    InicioComponent
+    InicioComponent,
+    MenuPrincipalUserComponent,
+    ListaLibrosParaDonarComponent
   ],
   imports: [
     BrowserModule,
