@@ -7,7 +7,9 @@ import { RegistroLibroComponent } from './admin/registro-libro/registro-libro.co
 import { EditarLibroComponent } from './admin/editar-libro/editar-libro.component';
 import { EditarPerfileComponent } from './editar-perfile/editar-perfile.component';
 import { RegisterAdminComponent } from './register-usuario/register-admin.component';
-import { InicioComponent } from './inicio/inicio.component';
+import { InicioComponent } from './inicio-admin/inicio.component';
+import { InicioAdmComponent } from './admin/inicio-adm/inicio-adm.component';
+import { LibrosPrestadosComponent } from './admin/libros-prestados/libros-prestados.component';
 
 const routes: Routes = [
 
@@ -20,6 +22,10 @@ const routes: Routes = [
   {path:'editarLibro', component:EditarLibroComponent},
   {path:'editarPerfil', component:EditarPerfileComponent},
   {path:'registeruser', component:RegisterAdminComponent},
+  {path:'inicio-adm', component:InicioAdmComponent},
+  {path:'libros-prestados', component:LibrosPrestadosComponent},
+
+
 
 
 
