@@ -10,6 +10,9 @@ import { RegisterAdminComponent } from './register-usuario/register-admin.compon
 import { InicioComponent } from './inicio/inicio.component';
 
 const routes: Routes = [
+
+  {path:'', component:InicioComponent},
+
   {path:'login', component: LoginComponent},
   {path:'recuperarpass', component:RecuperarrpassComponent},
   {path:'listalibros', component:ListaLibrosComponent},
@@ -17,7 +20,6 @@ const routes: Routes = [
   {path:'editarLibro', component:EditarLibroComponent},
   {path:'editarPerfil', component:EditarPerfileComponent},
   {path:'registeruser', component:RegisterAdminComponent},
-  {path:'inicio', component:InicioComponent}
 
 
 
