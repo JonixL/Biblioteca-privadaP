@@ -2,7 +2,12 @@
 /* Estilos personalizados para la barra de navegación */
 .navbar-custom {
   background-color: #B95835 !important;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 
 
 /* Cambiar color del encabezado de la tabla */
@@ -14,10 +19,11 @@
 /* Estilos personalizados para la tabla */
 .table-container {
   margin-top: 20px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  overflow-x: auto; /* Agrega desplazamiento horizontal si la tabla es muy ancha */
+
 }
+
 
 /* Agregar estilos para el contenedor de los botones */
 .button-container {
